@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: #0077b6;
+    background-color: #4a5759;
     height: 5rem;
     display: flex;
     justify-content: center;
@@ -14,22 +14,49 @@ header{
 
 h1{
     color: #f9f7f3;
+    font-family: 'Open Sans';
 }
 
 p{
-    max-width: 30%;
+    max-width: 35%;
 }
+
+.p1{
+    max-width: 20%;
+    margin-inline: 4rem;
+}
+
 
 img{
     width: 30rem;
+    height: 20rem;
 }
 
 .first{
     display: flex;
+    justify-content: center;
     justify-content: space-evenly;
-    margin-bottom: 6rem;
+    align-items: center;
+    margin-block: 6rem;
 }
 
-body{
-    background-color: #f2e8cf;
+.second{
+    background-color: #ced4da;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.img2{
+    width: 35rem;
+    height: 20rem;
+    margin-bottom: 2rem;
 }
